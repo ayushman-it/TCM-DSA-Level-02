@@ -55,29 +55,29 @@
 # We can use a parent class or fucnnction method, attributes and properties in children classes for reusblities.
 
 # Parent
-# class Animal:
-#     def eating(self):
-#         print("Animal is eating...")
+class Animal:
+    def eating(self):
+        print("Animal is eating...")
 
-# # Child
-# class Dog(Animal):
-#     def bark(self):
-#         print("Animal is Barking")
+# Child
+class Dog(Animal):
+    def bark(self):
+        print("Animal is Barking")
 
-# class Cat(Animal):
-#     def meow(self):
-#         print("Animal is Meow")
+class Cat(Animal):
+    def meow(self):
+        print("Animal is Meow")
 
-# # Child Execuation
-# dog = Dog()
-# cat = Cat()
+# Child Execuation
+dog = Dog()
+cat = Cat()
 
-# # Comes from Parent Class;
-# dog.eating()
-# dog.bark()
+# Comes from Parent Class;
+dog.eating()
+dog.bark()
 
-# cat.eating()
-# cat.meow()
+cat.eating()
+cat.meow()
 
 
 # class Person:
