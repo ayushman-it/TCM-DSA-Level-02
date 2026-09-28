@@ -1,51 +1,34 @@
 
-import java.util.concurrent.Flow;
+import java.util.Scanner;
 
-// --Javascript Class 
-// -----||------
-// Java Class
-
-// Javascript
-// let age = 20
-
-// Python 
-// age = 20
-
-// Java
-
-// int age = 20
-// String name = "Rahul";
-
-// Output (Case Sensitive)
-// Container
+// JAVA
 class Main{
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        // Scanner Predefined = class 
+        // tc = variable
+        // new = Instance of Object
+        // Scanner() = Class Calling...
+        // System.in = input readable values (Dynamic)
+        Scanner tc = new Scanner(System.in);
 
-        // Data Type
-        // 1. int
-        int age = 50;
-        // 3. String / Char
-        String grade = "A";
-        // 5. boolean
-        boolean stock = true;
-        // 6. double / Flow
-        double result = 45.67;
+        // System.out.println("Enter Your Name : ");
+        // Data Type = String
+        // __________________________________
+        // String name = tc.nextLine();
 
-        // 7. short
-        // 2. byte
-        // 4. long
+        // System.out.println("Hii my name is " + name);
 
-        System.out.println("Hello");
-        System.out.println("Khushi Developer");
-        System.out.println(age);
-        System.out.println(grade);
-        System.out.println(result);
-        System.out.println(stock);
+        // Data Type = Number 
+        // ____________________________________
+
+        System.out.println("Enter Your Frist Number : ");
+        int fnum = tc.nextInt();
+
+        System.out.println("Enter Your Second Number : ");
+        int lnum = tc.nextInt();
+    
+        System.out.println(fnum + lnum);
     }
 }
 
-// (1) JDK (Code wiriting, Development, comlpile) ----> (2) JVM (JVM help us to execute java codes pn my vertual machine) -----> (3) JRE (Output or Inputs visualize.) 
 
-// JDK = Access of java Code writing 
-// JVM = javac app.java
-// JRE = java Main 
