@@ -60,11 +60,13 @@ class Main{
         Scanner cal = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String fname = cal.nextLine();
-        // System.out.println("Enter your last name: ");
-        // String lname = cal.nextLine();
-        // String sum = fname   ;
+        System.out.println("Enter your last name: ");
+        String lname = cal.nextLine();
+        String sum = fname + lname ;
+       
         // System.out.println(sum);
-        if (fname == "khushi"){
+       
+        if (sum.equals("khushichouhan")){
             System.out.println("You are the right person");
         }
         else{
