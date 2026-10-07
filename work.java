@@ -53,25 +53,25 @@
 //      }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Main{
-    public static void main(String[] args){
-        Scanner cal = new Scanner(System.in);
-        System.out.println("Enter your name: ");
-        String fname = cal.nextLine();
-        // System.out.println("Enter your last name: ");
-        // String lname = cal.nextLine();
-        // String sum = fname   ;
-        // System.out.println(sum);
-        if (fname == "khushi"){
-            System.out.println("You are the right person");
-        }
-        else{
-            System.out.println("You are the wrong person");
-        }
-    }
-}
+// class Main{
+//     public static void main(String[] args){
+//         Scanner cal = new Scanner(System.in);
+//         System.out.println("Enter your name: ");
+//         String fname = cal.nextLine();
+//         // System.out.println("Enter your last name: ");
+//         // String lname = cal.nextLine();
+//         // String sum = fname   ;
+//         // System.out.println(sum);
+//         if (fname == "khushi"){
+//             System.out.println("You are the right person");
+//         }
+//         else{
+//             System.out.println("You are the wrong person");
+//         }
+//     }
+// }
 
 
 // import java.util.Scanner;
@@ -87,3 +87,4 @@ class Main{
 //         System.out.println(total);
 //     }
 // }
+
