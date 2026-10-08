@@ -53,27 +53,27 @@
 //      }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Main{
-    public static void main(String[] args){
-        Scanner cal = new Scanner(System.in);
-        System.out.println("Enter your name: ");
-        String fname = cal.nextLine();
-        System.out.println("Enter your last name: ");
-        String lname = cal.nextLine();
-        String sum = fname + lname ;
+// class Main{
+//     public static void main(String[] args){
+//         Scanner cal = new Scanner(System.in);
+//         System.out.println("Enter your name: ");
+//         String fname = cal.nextLine();
+//         System.out.println("Enter your last name: ");
+//         String lname = cal.nextLine();
+//         String sum = fname + lname ;
        
-        // System.out.println(sum);
+//         // System.out.println(sum);
        
-        if (sum.equals("khushichouhan")){
-            System.out.println("You are the right person");
-        }
-        else{
-            System.out.println("You are the wrong person");
-        }
-    }
-}
+//         if (sum.equals("khushichouhan")){
+//             System.out.println("You are the right person");
+//         }
+//         else{
+//             System.out.println("You are the wrong person");
+//         }
+//     }
+// }
 
 
 // import java.util.Scanner;
@@ -89,3 +89,28 @@ class Main{
 //         System.out.println(total);
 //     }
 // }
+
+interface Fruits{
+    void banana();
+};
+
+interface Vegitable{
+    void onion();
+};
+
+class Chef implements Fruits, Vegitable{
+    public void banana(){
+        System.out.println("Fruits is UP");
+    }
+
+    public void onion(){
+        System.out.println("vegitables Is Up");
+    }
+}
+
+class Main{
+    public static void main(String[] args){
+        Chef c1 = new Chef();
+        c1.onion();
+    }
+}
