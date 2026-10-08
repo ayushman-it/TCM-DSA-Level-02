@@ -7,10 +7,10 @@ interface Vegitables{
 }
 
 class Kitchen implements Fruit, Vegitables{
-    public void fruit(){
+    public void banana(){
         System.out.println("you pick fruit");
     }
-    public void vegitables(){
+    public void  onion(){
         System.out.println("you pick vegitable");
     }
 
