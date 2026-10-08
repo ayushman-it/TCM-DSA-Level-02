@@ -133,35 +133,128 @@ import java.util.Scanner;
 // 5. Interface
 // 6. Enum
 
-enum Signal{
-    RED,
-    YELLOW,
-    GREEN
-}
+// enum Signal{
+//     RED,
+//     YELLOW,
+//     GREEN
+// }
+
+// class Main{
+//     public static void main(String[] args){
+//         // Signal light = Signal.YELLOW;
+
+//         //init Class    -----Class---------
+//         Scanner tc = new Scanner(System.in);
+
+//         // Label
+//         System.out.println("Enter Your Signal RED/YELLOW/GREEN : ");
+
+//         // Input
+//         String color = tc.nextLine().trim().toUpperCase();
+
+//         // READ PREDEFIND Variablee Values
+//         // color = user input
+//         Signal light = Signal.valueOf(color);
+
+//         if(light == Signal.RED){
+//             System.out.println("STOP");
+//         }else if(light == Signal.YELLOW){
+//             System.out.println("Caution");
+//         }else{
+//             System.out.println("GO");
+//         }
+//     }
+// }
+
+
 
 class Main{
-    public static void main(String[] args){
-        // Signal light = Signal.YELLOW;
+    public static void main(String[] pratham){
+        // int a = 10;
+        // int b = 30;
 
-        //init Class    -----Class---------
-        Scanner tc = new Scanner(System.in);
+        // Arthimatic Operators
+        // _____________________________-
 
-        // Label
-        System.out.println("Enter Your Signal RED/YELLOW/GREEN : ");
+        // Addition
+        // int sum = a + b;
 
-        // Input
-        String color = tc.nextLine().trim().toUpperCase();
+        // // Substraction
+        // int sub = a - b;
 
-        // READ PREDEFIND Variablee Values
-        // color = user input
-        Signal light = Signal.valueOf(color);
+        // // Multiplication
+        // int multi = a * b;
 
-        if(light == Signal.RED){
-            System.out.println("STOP");
-        }else if(light == Signal.YELLOW){
-            System.out.println("Caution");
-        }else{
-            System.out.println("GO");
-        }
+        // // Multiplication
+        // int div = a / b;
+
+        // // Modulation
+        // int mode = a % b;
+
+        // System.out.println(mode);
+
+        // Assignment Operators 
+        // _________________________________
+
+        // int = Data type, || score = Variable || = = Assignment Operator || 10 = value
+        // int score = 10;
+
+        // score += 5;
+        // score += 2;
+
+        // System.out.println(score); // 17
+
+        // score++; // +1
+
+        // System.out.println(score); // 17 + 1 = 18
+
+        // Relationl Operator | Comperision Operator 
+        // int qty = 9;
+        // int stock = 10;
+
+        // int age = 18;
+        // System.out.println(age);
+        
+
+        // if(qty >= stock){
+        //     System.out.println("There is not Stock");
+        // }
+        // else{
+        //     System.out.println("Priduct Added in your cart");
+        // }
+
+        // if(age != 18){
+        //     System.out.println("Person is not Mature");
+        // }
+        // else{
+        //     System.out.println("Person is Minor");
+        // }
+
+
+        // Logical Operator
+
+        int age = 19;
+        boolean userid = true;
+        // // --------------------false------true------
+        // // System.out.println(age >= 18 && userid);
+        // // --------------------true------true------
+        // // System.out.println(age >= 18 && userid);
+
+
+        System.out.println(age >= 18 && !userid);
+
+
+        // System.out.println(age >= 18 || userid);
+
+        // int x = 10;
+        // int y = 20;
+
+        // if(x != y){
+        //     System.out.println("XYZ");
+        // }else{
+        //     System.out.println("ABC");
+        // }
+
+
     }
 }
