@@ -87,3 +87,21 @@
 //         System.out.println(total);
 //     }
 // }
+
+import java.util.Scanner ;
+
+class Main{
+    public static void main(String[] args){
+        Scanner calci = new Scanner(System.in);
+        System.out.println("Enter a value");
+        boolean value = calci.nextBoolean();
+
+        if  (value == true){
+        System.out.println("value is true");
+    }
+        else{
+            System.out.println("value is wrong");
+        }
+
+    }
+}
